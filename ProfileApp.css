@@ -1,0 +1,185 @@
+.material-symbols-outlined {
+    color: #fff;
+    position: absolute;
+    right: 8px;
+    font-size: 1em;
+    top: 20px;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 350,
+    'GRAD' 0,
+    'opsz' 24
+    
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+  *{
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+#bannerArea{
+
+    background: url(Green\ Minimalist\ Summer\ Big\ Sale\ Medium\ Banner.jpg) no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    font-family: 'Ubuntu',sans-serif;
+    border-radius: 20px;
+}
+
+
+
+
+#signincontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+
+    background: url(martin-widenka-c0ViYpsmUrg-unsplash.jpg) no-repeat ;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.form-box{
+    position: relative;
+    margin-top: 18%;
+    width: 400px;
+    height: 400px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    border: 2px solid #fff;
+    border-radius: 10%;
+    border-width: 0cap;
+    border-color: #fff; 
+    backdrop-filter: blur(15px);
+   
+}
+
+h2{
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+h5{
+    margin-top: 8%;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.auth-box{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+}
+
+.auth-box label{
+    position: absolute;
+    padding-top: 1em;
+    left: 20px;
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+
+}
+
+.auth-box input{
+    width: 200px;
+    height: 15px;
+    border-bottom: 2px solid #fff;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 35px 0 5px;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+
+}
+
+.auth-box button{
+    width: 300px;
+    height: 40px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    
+}
+
+#enterDetails {
+    text-align: center;
+    background-color: darkslategray; 
+    color: floralwhite;
+    padding-top: 20px;
+    float: left;
+    width: 50%;
+    
+}
+
+#findDetails {
+    text-align: center;
+    background-color: darkslategray; 
+    color: floralwhite;
+    float: right;
+    width: 50%;
+    margin-top: 10%;
+    padding-bottom: 25%;
+    
+ 
+    
+
+}
+#topofpage{
+     font-size: 4em; 
+     margin-top: 20px; 
+     font-family: 'Ubuntu', sans-serif;
+}
+
+.image{
+    max-width: 50%;
+    max-height: 50%
+}
+table{
+    align-self: center;
+}
+#signOutButton{
+ margin-left: 40%;
+}
+
+.mainpageinput{
+    width: 200px;
+    height: 15px;
+    border-bottom: 2px solid #fff;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 10px 0 5px;
+    color: fff;
+    border-bottom: 2px solid #fff;
+
+
+}
+
+.mainpagebutton{
+    margin-top: 10px;
+    width: 300px;
+    height: 40px;
+    border-radius: 40px;
+    background: salmon;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+#registerdUsers{
+    color: black;
+}
